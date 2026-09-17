@@ -1,0 +1,23 @@
+function BrandMark({ size = 40, title }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 64 64"
+      role={title ? 'img' : undefined}
+      aria-hidden={title ? undefined : true}
+    >
+      {title && <title>{title}</title>}
+      <rect width="64" height="64" rx="14" fill="#14213D" />
+      <path
+        d="M14 24c0-6.6 5.4-12 12-12h12c6.6 0 12 5.4 12 12v8c0 6.6-5.4 12-12 12H24.8L16 51.5V44c-1.2-1-2-3-2-4v-16z"
+        fill="#3A6351"
+      />
+      <circle cx="24" cy="28" r="3" fill="#F7F5F0" />
+      <circle cx="32" cy="28" r="3" fill="#F7F5F0" />
+      <circle cx="40" cy="28" r="3" fill="#E1AA74" />
+    </svg>
+  );
+}
+
+export default BrandMark;

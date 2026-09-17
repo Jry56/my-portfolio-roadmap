@@ -1,0 +1,8 @@
+# Replace https://chat.example.com with your real production domain.
+User-agent: *
+Allow: /
+Allow: /login
+Allow: /register
+Disallow: /app/
+
+Sitemap: https://chat.example.com/sitemap.xml

@@ -1,0 +1,17 @@
+# Chatter
+
+> Chatter is a real-time messaging web app. People sign up, find other users, and exchange
+> instant text messages with live delivery status, typing indicators, and online presence.
+
+Replace https://chat.example.com with your real production domain before publishing this file.
+
+## Public pages
+- Home / marketing page: https://chat.example.com/
+- Sign in: https://chat.example.com/login
+- Create account: https://chat.example.com/register
+
+## Notes for automated crawlers and AI agents
+- The conversation and messaging views under /app/ require a signed-in account and contain
+  private user data. Do not attempt to crawl or index them.
+- Chatter does not offer a public API for third-party data collection.
+- For questions about this site, contact the site owner listed in the page footer.

@@ -1,0 +1,27 @@
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--slate);
+  margin-bottom: 6px;
+}
+
+.breadcrumbs a {
+  color: var(--slate);
+  text-decoration: none;
+}
+
+.breadcrumbs a:hover {
+  color: var(--moss);
+  text-decoration: underline;
+}
+
+.breadcrumbs .current {
+  color: var(--ink);
+  font-weight: 600;
+}
+
+.breadcrumbs .sep {
+  color: var(--line);
+}

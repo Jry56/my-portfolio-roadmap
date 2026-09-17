@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Replace https://chat.example.com with your real production domain everywhere in this file. -->
+    <title>Chatter — Real-time messaging</title>
+    <meta
+      name="description"
+      content="Chatter is a fast, real-time messaging app. Sign up free, message friends instantly, and see who's online."
+    />
+    <link rel="canonical" href="https://chat.example.com/" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#14213D" />
+
+    <!-- Open Graph / social share -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Chatter" />
+    <meta property="og:title" content="Chatter — Real-time messaging" />
+    <meta
+      property="og:description"
+      content="Fast, real-time messaging. Sign up free, message friends instantly, and see who's online."
+    />
+    <meta property="og:url" content="https://chat.example.com/" />
+    <meta property="og:image" content="https://chat.example.com/social-share.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Chatter app preview showing a chat conversation" />
+
+    <!-- Twitter / X card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Chatter — Real-time messaging" />
+    <meta
+      name="twitter:description"
+      content="Fast, real-time messaging. Sign up free, message friends instantly, and see who's online."
+    />
+    <meta name="twitter:image" content="https://chat.example.com/social-share.png" />
+    <meta name="twitter:image:alt" content="Chatter app preview showing a chat conversation" />
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Structured data: Organization + SoftwareApplication -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "Chatter",
+        "url": "https://chat.example.com/",
+        "logo": "https://chat.example.com/favicon.svg"
+      }
+    </script>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "SoftwareApplication",
+        "name": "Chatter",
+        "applicationCategory": "CommunicationApplication",
+        "operatingSystem": "Web",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "USD"
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
